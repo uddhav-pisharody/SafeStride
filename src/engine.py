@@ -18,6 +18,7 @@ def train_one_epoch(model, optimizer, data_loader, device, epoch):
 
         loss_dict = model(images, targets)
         losses = sum(loss for loss in loss_dict.values())
+        # Accumulate loss
 
         optimizer.zero_grad()
         losses.backward()
