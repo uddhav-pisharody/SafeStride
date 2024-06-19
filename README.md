@@ -1,4 +1,3 @@
-# SafeStride
 ---
 title: SafeStride
 emoji: 🚷
@@ -10,6 +9,7 @@ app_file: app.py
 pinned: false
 license: mit
 ---
+#SafeStride
 SafeStride is a pedestrian detection project using Faster R-CNN.
 
 ## Installation
